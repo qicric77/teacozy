@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+header {
+display: flex;
+align-items: center;
+position: fixed;
+top:-4px;
+z-index: 1;
+width: 100%;
+height: 69px;
+border-bottom: 1px solid seashell;
+background-color: black;
+font-family: Helvetica;
+font-size: 22px;
+font-weight: bold;
+padding-left: 10px;
+padding-right: 10px;
+}
+body {
+ font-family: Helvetica;
+ font-size: 22px;
+ background-color: black;
+ color: seashell;
+ opacity: 0,9;
+ text-align: center;
+ margin: 0px;
+}
+nav {
+  text-align: right;
+    flex-grow: 1;
+}
+nav a{
+  color: seashell;
+}
+nav span {
+    display: inline-block;
+    padding: 20px 10px;
+}
+span {
+display: inline-block;
+}
+.logo {
+ display: flex;
+ align-items: center;
+ flex-grow: 1;
+ color: seashell;
+}
+h2 { display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+  }
+  h4 { display: block;
+    -webkit-margin-before: 1.33em;
+    -webkit-margin-after: 1.33em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+#hero {
+  height: 700px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0px auto;
+  align-content: center;
+  padding-top: 70px;
+}
+#hero_text {
+background-color: black;
+width: 1200px;
+margin: auto 0px auto 0px;
+}
